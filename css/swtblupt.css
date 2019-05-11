@@ -7,12 +7,26 @@ body {
 	background-color: #fcfcfc;
 }
 
-#explainer {
-	font-size: 80%;
+h1 {
+	text-align: center;
 }
 
-#map {
-	height: 600px;,
-	width: 400px;
+#explainer {
+	font-size: 80%;
+	text-align: justify;
+	margin:0 auto;
+	width: 1000px;
+}
 
+#map { 
+	height: 600px;
+	width: 1000px;
+	margin: auto;
+}
+
+#query-former {
+	height: 400px;
+	width: 700px;
+	margin: auto;
+	text-align: center;
 }
