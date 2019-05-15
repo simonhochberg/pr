@@ -18,15 +18,32 @@ h1 {
 	width: 1000px;
 }
 
+/*
 #map { 
 	height: 600px;
 	width: 1000px;
 	margin: auto;
 }
+*/
+#map {
+	margin: auto;
+	height: 80%;
+	width: 60%;
+}
 
 #query-former {
 	height: 400px;
-	width: 700px;
+	width: 600px;
 	margin: auto;
 	text-align: center;
+}
+
+#outer-div {
+	width: 800px;
+}
+
+#loadingMessage {
+	color: red;
+	margin:0 auto;
+	width: 200px;
 }

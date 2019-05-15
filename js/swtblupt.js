@@ -27,7 +27,7 @@ function loadRail() {
 			var point = turf.point([x,y]);
 			var buffer = turf.buffer(point, 0.5, {units: 'miles'});
 
-			L.geoJson(buffer, {color:"green", opacity:0.2, fillOpacity:0.2}).addTo(railMapData);
+			L.geoJson(buffer, {color:"green", opacity:0.1, fillOpacity:0.1}).addTo(railMapData);
 			};
 
 		if (railDataOnMap != null) {
